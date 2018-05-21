@@ -1,0 +1,189 @@
+
+
+.container {
+	max-width: 1400px;
+	margin:  0 auto;
+}
+
+body {
+	background-color: #1f202b;
+	color: azure;
+	font-family: 'Catamaran', sans-serif;
+}
+
+
+/*****Header*****/
+
+header {
+	height: 60px;
+	margin: 0 auto;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+	color: azure;
+}
+
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: azure;
+	font-family: 'Merriweather Sans', sans-serif; 
+}
+
+/*****Top-Section*****/
+
+
+h1 span {
+	color: #eea9c4;
+}
+
+.top-section {
+	background-image: url('../img/hero.png');
+	background-size: cover;
+	height: 725px;
+	padding: 0 20px 0 0;
+}
+
+.top-section h1 {
+	color: #2a2929;
+	font-family: 'Merriweather Sans', sans-serif;
+	padding: 600px 0px 50px 180px;
+	font-size: 65px;
+	text-shadow: 1px 1px White, -1px -1px black,
+				 1px -1px black, -1px 1px white;
+}
+
+/*****My Portfolio*****/
+
+.portfolio {
+	width: 550px;
+}
+
+.section-one, .section-two {
+	width: 550px;
+	height: 350px;
+	float: left;
+	padding: 50px;
+}
+
+.photoshop-section .section-one {
+	text-align: right;
+}
+
+.section-one h4, .section-two h4 {
+	font-size: 28px;
+	line-height: 10px
+}
+
+.section-one h5, .section-two h5 {
+	font-size: 20px;
+	line-height: 10px;
+}
+
+.section-one p, .section-two p {
+	font-size: 18px;
+}
+
+/*****About Me*****/
+
+.bottom-section {
+	height: 550px;
+	clear: both;
+	background-image: url('../img/about-me.png');
+	color: #2a2929;
+}
+
+.bottom-section h2 {
+	font-size: 36px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.bottom-section h4 {
+	padding-left: 100px;
+	font-size: 28px;
+}
+
+.bottom-section p {
+	padding-left: 100px;
+	padding-right: 640px;
+	font-size: 24px;
+}
+
+
+/*****Footer*****/
+
+.contact {
+	width: 100%;
+	height: 350px;
+	float: left;
+}
+
+.lets-connect {
+	text-align: center;
+	color: #eea9c4;
+	font-size: 30px;
+	font-family: 'Merriweather Sans', sans-serif;
+	text-shadow: 1px 1px #f093a6, -1px -1px #f093a6,
+				 1px -1px #f093a6, -1px 1px #f093a6;
+	letter-spacing: 5px;
+	
+}
+
+.footer1, .footer2, .footer3 { 
+	width: 450px;
+	height: auto;
+	float: left;
+	text-align: center;
+}
+
+.footer1 p, .footer3 p {
+	line-height: 5px;
+}
+
+.footer2 img {
+	padding: 0px 20px 0px;
+}
+
+.copyright {
+	text-align: center;
+	color: #eea9c4;
+	font-size: 10px;
+	font-family: 'Merriweather Sans', sans-serif;
+	letter-spacing: 5px;
+}
+footer {
+	width: 100%;
+	height: auto;
+	clear: both;
+	padding: 0px 0px 5px 0px;
+}
+
+
+
+
+
+
+
